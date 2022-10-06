@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+.tec{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+}
+
+.blog{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+}
+
+.titulo{
+    display: block;
+}
+
+.menu{
+    display: block;
+}
+
+main{
+    display: flex;
+    background-color: transparent;
+    width:50%;
+    margin:auto;
+    justify-content: space-between;
+}
+
+main .colunaEsquerda{
+    display: flex;
+    background-color: transparent;
+    float: left;
+    width: 76%;
+    flex-wrap: wrap;
+}
+
+.colunaEsquerda .postagem{
+    padding: 10px;
+    background-color: white;
+}
+
+.colunaDireita .menuLateral{
+    padding: 10px;
+    background-color: white;
+}
+
+main .colunaDireita{
+    display: flex;
+    background-color: transparent;
+    width:50%;
+    float: right;
+    width: 22%;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+
+header{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    background-color: rgb(247, 182, 16);
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding:0;
+    font-size: 12px;
+}
+ 
+li {
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    height: 25px;
+    justify-content: center;
+}
+
+.rodapetxt {
+    margin: auto;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+img{
+    display: block;
+    width: 99%;
+    margin: auto;
+}
+
+p{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+div .corTitulo{
+    color: rgb(247, 182, 16);
+    font-size: 15px;
+}
+
+div .corTitulo2{
+    width: 140px;
+    background-color: rgb(204, 204, 204);
+    color: rgb(103, 103, 103);
+    font-size: 12px;
+    margin: auto;
+}
+
+.conteudo{
+    font-size: 12px;
+}
+
+div .leiaMais{
+    color: rgb(247, 182, 16);
+    font-size: 12px;
+}
+
+hr{
+    border-width: 1px;
+    background-color: rgb(204, 204, 204);
+}
